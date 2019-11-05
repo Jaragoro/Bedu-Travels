@@ -59,6 +59,27 @@ ul {
   color: #fff;
 }
 
+#icons-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#icons-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#icons-container i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin-top: 50px;
+}
+
 .margin-top-lg{
   margin-top: 50px;
 }
@@ -223,6 +244,81 @@ footer > ul > li:first-of-type{
   background-color: #24272a;
 }
 
+.top-country-gridarea{
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  justify-items: center;
+}
+
+.top-country-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.top-country-gridarea > div{
+  width: 24vw;
+  height: 30vh;
+  text-align: center;
+}
+
+.top-country-gridarea > div >img{
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.login-container{
+  height: -webkit-fill-available;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  border-radius: 30px;
+}
+
+.login-container > div{
+  width: 80%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px
+}
+
+.login-inputs{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.login-info{
+  display: flex;
+  justify-content: center;
+  padding: 0 50px 0 50px;
+}
+
+.login-inputs > input{
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%;
+  padding: 0;
+  font-size: 20px;
+  padding-left: 5px;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.confirm-button{
+  padding: 7px 10px;
+  border: 1px solid #3eb368;
+  background: #3eb368;
+  color: #fff;
+  line-height: 17px;
+  border-radius: 3px;
+  text-align: center;
+}
 /*Media Queries para el diseño responsivo*/
 
 @media screen and (min-width: 500px){
